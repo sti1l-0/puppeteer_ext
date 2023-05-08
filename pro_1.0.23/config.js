@@ -26,7 +26,7 @@ const config = {
         //注意和上面的识别流程endTimes有区别,两者可同时起作用
         recognitionLimit: {
             isOpenRecognitionLimit: true, // 是否开启功能
-            recognitionMaxTimes: 30, //超过几次识别后触发逻辑
+            recognitionMaxTimes: 10, //超过几次识别后触发逻辑
             //nothing | refreshCaptcha
             actionAfterRecognitionMaxTimes: "nothing" //触发什么逻辑 nothing：什么都不干，refreshCaptcha：刷新九宫格
         },
